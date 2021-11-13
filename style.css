@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: 'Poller One', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;
+    text-shadow: 2px 2px 5px #fff;
+}
+
+p, li{
+    font-family: 'Aleo', sans-serif;
+    padding: 20px;
+    text-align: center;
+    line-height: 22px;
+    font-size: 25px;
+    text-shadow: 2px 2px 5px #fff;
+}
+
+body{
+    background-image: url(bosque.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+.glass-filter {
+    background-color: rgba(24, 2, 27, 0.2);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+#video {
+    text-align: center;
+}
+
+.links-sociais, a {
+    text-align: center;
+    margin: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+img:hover {
+    transform: scale(1.2);
+}
